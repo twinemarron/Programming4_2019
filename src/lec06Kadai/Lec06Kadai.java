@@ -48,6 +48,10 @@ public class Lec06Kadai extends Applet implements ActionListener {
 			resultTextField.setText("ゼロで割りました.");
 		} catch (Exception err) {
 			resultTextField.setText("入力文字が不正です.");
+		} finally {
+			feetTextField.setText("");
+			inchTextField.setText("");
+			divideValueTextField.setText("");
 		}
 	}
 
