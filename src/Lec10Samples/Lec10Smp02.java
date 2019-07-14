@@ -49,7 +49,6 @@ public class Lec10Smp02 extends Frame implements ActionListener {
 		fdialog.setVisible(true);
 		pathname.setText("パス : " + fdialog.getDirectory());
 		filename.setText("ファイル : " + fdialog.getFile());
-
 	}
 
 
