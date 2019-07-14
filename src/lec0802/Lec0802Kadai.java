@@ -16,7 +16,7 @@ public class Lec0802Kadai extends Frame implements ActionListener {
 
 	private TextField tf1 = new TextField("", 6);
 	private TextField tf2 = new TextField("", 6);
-	private TextField tfAns = new TextField("", 6);
+	private TextField tfAns = new TextField("", 30);
 	private Button plusBtn = new Button("+");
 	private Button minusBtn = new Button("-");
 	private Button multiplyBtn = new Button("*");
